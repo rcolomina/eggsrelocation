@@ -1,19 +1,3 @@
-"""
-You've got a box with 12 eggs.
-
-You take them from them box, scramble them, and finally put them back.
-
-Questions:
-
-1) What is the average number of eggs ending up at the same location?
-2) What is the probability of not having any egg at the same location?
-
-Bonus question:
-
-What would happen with a box of N eggs?
-
-"""
-
 import random
 
 
@@ -63,7 +47,7 @@ def monte_carlo_sim(number_of_experiments, box_sizes):
 
 def write_results(results, mode = "w"):
 
-    with open("results.txt", mode) as f:
+    with open("results_for_number_of_eggs.txt", mode) as f:
         if mode == "w":
             f.write("Number_Eggs, Num_Experiments, Num_ending_same_loc, Num_not_ending_same_loc \n")
         for re in results:

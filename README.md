@@ -1,4 +1,4 @@
-# eggsrelocation
+# Relocating Eggs at Random
 
 Solving numerically the problem of relocating eggs at random from a box
 
